@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+body {
+    background-image: url(/photo/CTC-BG.png);
+}
+
+.wrapper {
+    max-width: 1240px ;
+    /* border: 1px solid red; */
+    margin-top: 2.5rem;
+    margin-left: 20rem;
+    background-color: #fff;
+}
+
+/* header */
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100px;
+}
+
+
+.menu-list {
+    display: flex;
+    list-style: none;
+}
+
+
+.menu-list li {
+    margin: 0 0.5rem;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: #bbbb;
+    font-size:  13px;
+}
+
+
+
+
+/* navbar */
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 80px;
+
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list ul li {
+    margin: 0 0.4rem;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.navbar-search a {
+    margin-left: 15rem;
+    font-size: 19px;
+}
+
+.languages {
+    border: 1px solid #bbb;
+    width: 50px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: 2rem;
+}
+
+
+.languages a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* content */
+
+.content {
+    display: flex;
+    flex-flow: wrap;
+    column-gap: 3rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.head-title {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.card1 {
+    margin-top: 5rem;
+}
+
+.card1 img {
+    margin-top: 2rem;
+    /* border: 1px solid red  ; */
+    height: 450px;
+    width: 300px;
+}
+
+.card1 p {
+    font-size:23px;
+    margin-top: 1rem;
+}
+
+
+
+.card2 img {
+    margin-top: 2rem;
+    /* border: 1px solid red  ; */
+    height: 450px;
+    width: 300px;
+}
+
+.card2 p {
+    font-size: 23px;
+    margin-top: 1rem;
+}
+
+
+/* teacher */
+
+.content-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-1 img {
+    height: 450px;
+    width: 300px;
+}
+
+.content-1 p {
+    font-size: 23px;
+    margin-top: 1rem;
+}
+
+.content-2 {
+    display: flex;
+    flex-flow: wrap;
+    column-gap: 3rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-th img {
+    height: 450px;
+    width: 300px;
+}
+
+
+.card-th-1 img {
+    height: 450px;
+    width: 300px;
+}
+
+.card-th-1 p {
+    font-size: 23px;
+    margin-top: 1rem;
+}
+
+.card-th {
+    text-align: center;
+}
+
+.head-title h2 {
+    margin: 10rem;
+}
+
+
+/* slide */
+
+
+.image-slideshow {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  img {
+    width: 100%
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+  @keyframes fade {
+    from {opacity: .5}
+    to {opacity: 1}
+  }
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color:#88bbdd;
+    padding: 2rem 2rem;
+    /* border: 1px solid red; */
+}
+
+
+.footer1 a {
+    text-decoration: none;
+}
+
+.footer1 {
+    /* border: 1px solid red; */
+    width: 240px;
+}
+
+.footer1 img {
+    width: 240px;
+}
+
+
+.footer1 p {
+    margin-top: 2rem;
+    color: #1d3e93;
+}
+
+
+.footer2 {
+    /* border: 1px solid red; */
+    width: 240px;
+    height: 400px;
+}
+
+.footer2 a {
+    text-decoration: none;
+}
+
+
+.head h4 {
+    color:#1d3e93 ;
+}
+
+.footer2 .list1 ul {
+    float: left;
+    list-style: square;
+    color:#1d3e93
+}
+
+.list1 {
+    /* border: 1px solid red; */
+    width: 120px;
+    line-height: 30px;
+}
+
+.footer2 .list2 ul {
+    float: right;
+    list-style: square;
+    color:#1d3e93
+}
+
+.list2 {
+    line-height: 30px;
+}
+
+
+.list2 h4 {
+    margin: 0 auto;
+}
+
+.head3 h4 {
+    color: #1d3e93;
+}
